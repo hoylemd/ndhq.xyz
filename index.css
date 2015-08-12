@@ -1,0 +1,20 @@
+body {
+  font-family: courier monospace;
+  color: #00CC00;
+  background-color: #080808;
+  text-align: center;
+}
+
+a:link {
+  color: #FFFFFF;
+}
+
+a:visited {
+  color: #FF9900;
+}
+
+div.center {
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+}
