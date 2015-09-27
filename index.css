@@ -1,9 +1,29 @@
 body {
-  font-family: courier monospace;
-  color: #00CC00;
+  font-family: arial, sans;
+  color: #FFFFFF;
   background-color: #080808;
   background-image: url('/assets/wallpaper.jpg');
   text-align: center;
+}
+
+.content {
+  margin-top: 100px;
+}
+
+p, span {
+  font-size: 18px;
+}
+
+h2 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 150px;
+  opacity: 0.75;
+}
+
+a {
+  text-decoration: none;
+  opacity: 0.75;
 }
 
 a:link {
@@ -11,11 +31,31 @@ a:link {
 }
 
 a:visited {
+  color: #FFFFFF;
+}
+
+a:hover {
   color: #FF9900;
 }
 
+
 div.center {
-  width: 150px;
   margin-left: auto;
   margin-right: auto;
+}
+
+a.service {
+  display: inline-block;
+  height: 170px;
+  margin-left: 7px;
+  margin-right: 7px;
+}
+
+.service img {
+  display: block;
+}
+
+.service span {
+  display: inline-block;
+  margin-top: 7px;
 }
