@@ -2,6 +2,7 @@ body {
   font-family: courier monospace;
   color: #00CC00;
   background-color: #080808;
+  background-image: url('/assets/wallpaper.jpg');
   text-align: center;
 }
 
